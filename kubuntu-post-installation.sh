@@ -53,17 +53,3 @@ wget https://go.skype.com/skypeforlinux-64.deb
 sudo gdebi skypeforlinux-64.deb
 
 rm skypeforlinux-64.deb
-
-# Brother Printer-/Scanner-Driver for my Brother MFC-J5320DW
-
-https://support.brother.com/g/b/downloadhowto.aspx?c=de&lang=de&prod=mfcj5320dw_eu_as&os=128&dlid=dlf006893_000&flang=4&type3=625
-
-# Deaktive bootsplash
-
-sudo cp /etc/default/grub /etc/default/grub.save
-
-sudo nano /etc/default/grub
-
-# Change the following line: GRUB_CMDLINE_LINUX_DEFAULT=""
-
-sudo update-grub
