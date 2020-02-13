@@ -8,10 +8,11 @@ dpkg -l | grep -qw gdebi || sudo apt-get install -yyq gdebi
 
 Install packages from repositories
 
-sudo apt install ubuntu-restricted-extras flatpak thunderbird thunderbird-locale-de gimp gimp-help-de language-pack-gnome-de libreoffice libreoffice-l10n-de libreoffice-help-de git krita krita-l10n simple-scan kdenlive obs-studio virtualbox virtualbox-qt virtualbox-dkms virtualbox-guest-additions-iso
+sudo apt install ubuntu-restricted-extras flatpak thunderbird thunderbird-locale-de gimp gimp-help-de \
+language-pack-gnome-de libreoffice libreoffice-l10n-de libreoffice-help-de git krita krita-l10n simple-scan \
+kdenlive obs-studio virtualbox virtualbox-qt virtualbox-dkms virtualbox-guest-additions-iso steam
 
 # sudo apt purge ttf-mscorefonts-installer
-
 # sudo apt install ttf-mscorefonts-installer
 
 sudo adduser $USER vboxusers
